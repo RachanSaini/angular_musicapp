@@ -1,0 +1,23 @@
+<!-- <section class="track-container"
+fxLayout
+fxLayout.sm="column"
+fxLayoutAlign="center"
+>
+   <app-card *ngFor="let trk of track" [track]="track" class="track-card"
+   
+   ></app-card>
+</section> -->
+<br>
+<br><br><br>
+<br>
+<h1>hello</h1>
+
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>
+      xxxxx {{tracks.trackId}}
+      <p *ngFor="let tr of tracks">track name:{{tr.trackName}}</p>
+      </mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="{{tracks.trackId}}">
+  </mat-card>
